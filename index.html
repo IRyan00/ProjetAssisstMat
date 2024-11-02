@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="connexion.html">
     <link rel="stylesheet" href="inscrption.html">
+    <link rel="stylesheet" href="style.css">
     <title>Projet Assisstante Maternelle</title>
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
         <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Qui suis-je ?</li>
-                <li>Services</li>
-                <li>Contacter</li>
+            <ul class="navbar">
+                <li><a href="#heros">Accueil</a></li>
+                <li><a href="#presentation">Qui suis-je ?</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contacter">Contacter</a></li>
                 <li><a href="connexion.html">Connexion</a></li>
             </ul>
         </nav>
     </header>
+    <!-- FIN DU HEADER -->
 
+    <!-- CONTENU DE LA PAGE -->
     <main>
-        <section>
-            <h1>Lorem Ipsum</h1>
+        <!-- HEROS -->
+        <section id="heros" class="heros">
+            <h1 class="nom">Lorem Ipsum</h1>
 
             <div>
                 <img src="assets/images/32069_792_Aire-de-jeux-Ville-de-Chambery.jpg" alt="">
@@ -32,17 +38,25 @@
                 <img src="assets/images/Parcs-photo-1-620.jpg" alt="">
             </div>
         </section>
+        <!-- FIN DU HEROS -->
 
-        <section>
+        <!-- PRESENTATION -->
+        <section id="presentation" class="presentation">
+            <h2 class="qsj">Qui suis-je ?</h2>
             <img src="assets/images/moments-conception-vectorielle-style-icone-maman_822882-397109.jpg.avif" alt="">
-            <h2>Qui suis-je ?</h2>
-            <p> Lorem ipsum dolor sit amet. Vel ducimus error non dolor atque aut rerum saepe aut praesentium expedita
+            <img src="assets/images/moments-conception-vectorielle-style-icone-maman_822882-397109.jpg.avif" alt="">
+
+            <p> Lorem ipsum dolor sit amet. Vel ducimus error non dolor atque aut rerum saepe aut praesentium
+                expedita
                 quo vero facere. Non voluptate delectus et consectetur enim eos laudantium mollitia. 
-                Et veniam aspernatur et itaque reprehenderit et placeat necessitatibus id voluptatem iure At consectetur
+                Et veniam aspernatur et itaque reprehenderit et placeat necessitatibus id voluptatem iure At
+                consectetur
                 cumque qui quia libero.</p>
         </section>
+        <!-- FIN DE PRESENTATION -->
 
-        <section>
+        <!-- FIN DE SERVICES -->
+        <section class="services" id="services">
             <div>
                 <h3>Horaires</h3>
 
@@ -74,8 +88,10 @@
                 <p>1 place(s) restante(s) sur 4</p>
             </div>
         </section>
+        <!-- FIN DE SERVICES -->
 
-        <section>
+        <!-- CONTACT, FORM -->
+        <section id="contacter" class="contacter">
             <h2>Me contacter</h2>
 
             <form action="/ma-page-de-traitement">
@@ -108,18 +124,24 @@
                 <button type="submit">Envoyer</button>
             </form>
         </section>
+        <!-- FIN DE CONTACT, FORM -->
     </main>
+    <!-- FIN DU CONTENU DE LA PAGE -->
 
+    <!-- FOOTER -->
     <footer>
+        <!-- SOCIAL MEDIAS -->
         <section>
-            <div>
+            <div class="imgFooter">
                 <a href=""><img src="assets/images/x-twitter-logo-png.webp" alt=""></a>
                 <a href=""><img
                         src="assets/images/png-clipart-logo-instagram-pinterest-facebook-inc-instagram-text-logo.png"
                         alt=""></a>
             </div>
         </section>
+        <!-- FIN SOCIAL MEDIA -->
 
+        <!-- INFOS PERSO -->
         <section>
             <h2>Informations personnelles</h2>
 
@@ -132,7 +154,9 @@
                 <p><a href="https://maps.app.goo.gl/KWWXBrmC3TezzLmG6" target="_blank">Adresse</a></p>
             </div>
         </section>
+        <!-- FIN DES INFOS PERSO -->
     </footer>
+    <!-- FIN DU FOOTER -->
 </body>
 
 </html>
